@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/dv3-font-20140421-min.css" type="text/css"/>
 
 
+importScripts('https://s3-eu-west-1.amazonaws.com/static.wizrocket.com/js/sw_webpush.js');// remove CleverTap server worker from your root folder
 
 <script type="text/javascript">
 	var clevertap = {event:[], profile:[], account:[], region : 'in1', onUserLogin:[], notifications:[], privacy:[]};
@@ -47,6 +48,7 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 
 
 </script>
+
 <script src="clevertap_sw.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
