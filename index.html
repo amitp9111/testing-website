@@ -9,6 +9,15 @@
 <link rel="stylesheet" href="css/assets-201603-5.css" type="text/css"/>
 <link rel="stylesheet" href="css/dv3-font-20140421-min.css" type="text/css"/>
 
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "fe32838a-9b18-418c-9e03-94608aa46285",
+    });
+  });
+</script>
 
 <script type="text/javascript">
 	var clevertap = {event:[], profile:[], account:[], region : 'in1', onUserLogin:[], notifications:[], privacy:[]};
