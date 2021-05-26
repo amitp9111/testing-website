@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/assets-201603-5.css" type="text/css"/>
 <link rel="stylesheet" href="css/dv3-font-20140421-min.css" type="text/css"/>
 
+
 <script type="text/javascript">
 	var clevertap = {event:[], profile:[], account:[], region : 'in1', onUserLogin:[], notifications:[], privacy:[]};
 // replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
@@ -30,6 +31,52 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 </head>
 
 <body class="home-only">
+
+	<!-- <h2>FIREBASE WEB PUSH NOTIFICATION Trial</h2>
+	<p id="token"></p>
+	<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-messaging.js"></script> -->
+
+	<!-- <script>
+ 
+	// 	firebase.initializeApp({
+	// 		"messagingSenderId":"741664850409"
+	// 	});
+	// 	const messaging=firebase.messaging();
+
+	// 	function IntializeFireBaseMessaging(){
+	// 		messaging
+	// 			.requestPermission()
+	// 			.then(function(){
+	// 				console.log("Notification Permission");
+
+	// 			})
+	// 			.then(function(token){
+	// 				console.log("Token: "+token);
+	// 				document.getElementById("token").innerHTML=token;
+	// 			})
+	// 			.catch(function(reason){
+	// 			console.log(reason);
+	// 			});
+	// 	}
+
+	// 	messaging.onMessage(function(payload){
+	// 		console.log(payload);
+	// 	});
+	// 	messaging.onTokenRefresh(function(){
+	// 		messaging.getToken()
+	// 		.then(function(newtoken){
+	// 			console.log("New Token: "+ newtoken);
+	// 		}) 
+	// 		.catch(function(reason){
+	// 			console.log(reason);
+	// 		})
+	// 	})
+	// 	IntializeFireBaseMessaging();
+
+	// </script>
+
 <header class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container clearfix">
@@ -298,7 +345,7 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 			</div>
 			<div class="hotlist-thumbnail">
 			<ul class="inline pull-right">
-				<li><img src="img/img2.jpg" class="img-40 img-frame"></li>
+				<li><img src="img/img1.jpg" class="img-40 img-frame"></li>
 				<li><img src="img/img2.jpg" class="img-40 img-frame"></li>
 				<li><img src="img/img3.jpg" class="img-40 img-frame"></li>
 			</ul>
