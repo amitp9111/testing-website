@@ -510,21 +510,21 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 <noscript><img src="#" style="display:none" height="1" width="1"/></noscript>
 <noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" src="#"/></div></noscript>
 
-<script>
-	clevertap.notifications.push({
+ <script>
+// 	clevertap.notifications.push({
 
-  "titleText":'Would you like to receive Push Notifications?',
-  "bodyText":'We promise to only send you relevant content and give you updates on your transactions',
-  "okButtonText":'Sign me up!',
-  "rejectButtonText":'No thanks',
-  "okButtonColor":'#f28046'});
+//   "titleText":'Would you like to receive Push Notifications?',
+//   "bodyText":'We promise to only send you relevant content and give you updates on your transactions',
+//   "okButtonText":'Sign me up!',
+//   "rejectButtonText":'No thanks',
+//   "okButtonColor":'#f28046'}); -->
 
-// clevertap.notifications.push({
-//     "titleText":popupTitleText,
-//     "bodyText":popupBodyText,
-//     "okButtonText":okButtonText,
-//     "rejectButtonText":rejectButtonText,
-//     "okButtonColor":okButtonColorInHex});
+clevertap.notifications.push({
+    "titleText":popupTitleText,
+    "bodyText":popupBodyText,
+    "okButtonText":okButtonText,
+    "rejectButtonText":rejectButtonText,
+    "okButtonColor":okButtonColorInHex});
 </script>
 </body>
 </html>
