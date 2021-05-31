@@ -563,5 +563,17 @@ clevertap.event.push("Product Viewed", {
 
 
 </script>
+
+<div class="btn">CLOSE</div>
+<script>
+var btn = document.querySelector('.btn');
+var overlay = window.parent.document.getElementById('intentOpacityDiv');
+var wrapper = window.parent.document.getElementById('intentPreview');
+btn.addEventListener('click', closePopUp);
+function closePopUp()
+{ overlay.remove(); wrapper.remove(); }
+</script> 
+
+
 </body>
 </html>
