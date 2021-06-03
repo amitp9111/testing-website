@@ -40,7 +40,7 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 </script>
 <link rel="manifest" href="/manifest.json">
 
- <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=44a54aec1460b' async='true'></script>
+ <!-- <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=44a54aec1460b' async='true'></script> -->
 </head>
 
 <body class="home-only">
@@ -495,7 +495,7 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
   "rejectButtonText":'No thanks',
   "okButtonColor":'#f28046'}); 
 </script> 
-  -->
+-->
   <!-- <script>  
 	  clevertap.notifications.push({ 
       "titleText":'Would you like to receive Pop Notifications ?',
@@ -555,18 +555,17 @@ function closePopUp()
 </script> -->
 
 
-
- <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.3/app.js" async></script>
- 	<script>
- 			var truepush = window.truepush || [];
-		 
- 			truepush.push(function(){
-	 		truepush.Init({
-		 	id: "60b7700d651534840b1c0230"
-	 		},function(error){
-	   		if(error) console.error(error);
-	 						})
- 			})
-	</script>
+<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.3/app.js" async></script>
+<script>
+var truepush = window.truepush || [];
+		
+truepush.push(function(){
+	truepush.Init({
+		id: "60b8d4c8b387ba83fa5cbc7d"
+	},function(error){
+	  if(error) console.error(error);
+	})
+})
+</script>
 </body>
 </html>
