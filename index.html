@@ -45,6 +45,28 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 
 <body class="home-only">
 
+	
+ <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script> 
+
+<!-- <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script> -->
+
+ <script> 
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyAmn550uufp0YogKYicn6UJjsoTf-5YbVQ",
+    authDomain: "logic-mart.firebaseapp.com",
+    projectId: "logic-mart",
+    storageBucket: "logic-mart.appspot.com",
+    messagingSenderId: "741664850409",
+    appId: "1:741664850409:web:0e6b1d4e03dc070fb50b78",
+    measurementId: "G-QJ9CN3JZLJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+ </script>
+
+	
 <header class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container clearfix">
