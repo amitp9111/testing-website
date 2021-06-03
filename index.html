@@ -562,19 +562,18 @@ function closePopUp()
 </script> 
  -->
 
- <script type="application/javascript" 
- src="https://sdki.truepush.com/sdk/v2.0.3/app.js" 
- async></script>
+
+ <script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.3/app.js" async></script>
  <script>
-var truepush = window.truepush || [];
-truepush.push(function(){
- truepush.Init({
-	 id: "60b7700d651534840b1c0230"
-	 }, function(error){
-		 if(error) console.error(error);
+ var truepush = window.truepush || [];
+		 
+ truepush.push(function(){
+	 truepush.Init({
+		 id: "60b7700d651534840b1c0230"
+	 },function(error){
+	   if(error) console.error(error);
 	 })
  })
-</script>
-
+ </script>
 </body>
 </html>
