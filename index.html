@@ -40,6 +40,16 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 })();
 
 </script>
+
+<script>
+  function subscribeFun() {
+     console.log("subscribe function start");
+     clevertap.event.push("Subscribe");
+     console.log("subscribe function end");
+     parent.$WZRK_WR.closeIframe('1620830328','intentPreview');
+   }  
+ 
+ </script>
 <link rel="manifest" href="/manifest.json">
 
  <!-- <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=44a54aec1460b' async='true'></script> -->
