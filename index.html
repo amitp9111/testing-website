@@ -497,8 +497,10 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 
 var a="Hi User!! Do u want Push Notifications?";
 var b="We promise to only send you relevant content and give you updates on your transactions";
-var c="Sign me up!";
-
+var c={
+  id:12,
+  text:'Sign me up!'
+}
 // var firstName = prompt("What's your first name?");
 // var emailid = prompt("What's your email id ?");
 
@@ -516,7 +518,7 @@ clevertap.notifications.push({
 <script>
   
       $(document).ready(function(){
-        $(c).click(function(){
+        $("span12").click(function(){
 
         console.log("hi it works");
       //     clevertap.onUserLogin.push({
