@@ -491,35 +491,34 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
   
 
     
-<script>
-
-  var a="Hi User!! Do u want Push Notifications?";
-  var b="We promise to only send you relevant content and give you updates on your transactions";
-  
-  var c="Sign me up!";
-	// var firstName = prompt("What's your first name?");
-	// var emailid = prompt("What's your email id ?");
-  
-  clevertap.notifications.push({
-  "titleText":a,
-  "bodyText":b,
-  "okButtonText":c,
-  "rejectButtonText":'No thanks',
-  "okButtonColor":'#f28046'
-  });
-
-</script>
 
 <div class="new">
   <script>
-    var d=c;
-  </script>
+    
+
+var a="Hi User!! Do u want Push Notifications?";
+var b="We promise to only send you relevant content and give you updates on your transactions";
+
+var c="Sign me up!";
+// var firstName = prompt("What's your first name?");
+// var emailid = prompt("What's your email id ?");
+
+clevertap.notifications.push({
+"titleText":a,
+"bodyText":b,
+"okButtonText":c,
+"rejectButtonText":'No thanks',
+"okButtonColor":'#f28046'
+});
+
+</script>
+
 </div>
 
 <script>
   
       $(document).ready(function(){
-        $(".span12").click(function(){
+        $(".new").click(function(){
 
         console.log("hi it works");
       //     clevertap.onUserLogin.push({
