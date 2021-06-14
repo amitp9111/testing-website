@@ -57,10 +57,19 @@ clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agre
 
 <body class="home-only">
 
+
 	
   <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script> 
 
  <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+
+
+
+ <div id="intentPreview" style="display:block;overflow:hidden;position:fixed;width: 100%;height: 100%;z-index:2147483647;left:0;top:0"><iframe scrolling="no" id="wiz-iframe-intent" style="z-index: 2147483647; display:block; height: 100% !important; width: 100% !important;min-height:80px !important;border:0px !important; border-color:none !important;"></iframe></div>
+
+
+
+ <iframe scrolling="no" id="wiz-iframe-intent" style="z-index: 2147483647; display:block; height: 100% !important; width: 100% !important;min-height:80px !important;border:0px !important; border-color:none !important;"></iframe>
 
  <script> 
   
